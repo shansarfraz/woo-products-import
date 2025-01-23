@@ -5,7 +5,7 @@ class CSV_Importer_Admin_UI {
     private $importer;
 
     // Settings key for the plugin
-    
+    public function __construct() {
     private $settings_key = 'csv_importer_settings';
     
     public function __construct($importer) {
