@@ -1,0 +1,8 @@
+# Ignore all files in the vendor directory
+/vendor/
+
+# Ignore all files in the node_modules directory
+/node_modules/
+# Ignore composer files
+composer.json
+composer.lock
